@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="/src/java.js"></script>
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>weather</title>
+  </head>
+  <body>
+    <div class="body">
+      <div class="container p-2">
+        <div class="mx-auto" style="width: 400px; color: darkgray">
+          <div
+            class="
+              grid
+              shadow-sm
+              p-3
+              mb-5
+              bg-secondary.bg-gradienttext-dark bg-opacity-25
+              rounded
+            "
+          >
+            <div class="g-col-4">
+              <div class="card mb-4 p-4 shadow-sm p-1 mb-1 bg-body rounded">
+                <div
+                  class="
+                    card-header
+                    p-3
+                    mb-1
+                    bg-dark
+                    text-white
+                    shadow-sm
+                    p-1
+                    mb-1
+                    bg-body
+                    rounded
+                  "
+                >
+                  <div class="row">
+                    <div class="col-5" id="header">
+                      Nottingham
+                    </div>
+                    <div class="col-">Uk</div>
+                    <div class="col-3">  <span id="temperature"></span>
+                      🌞 17
+                     </span>
+                        <a id="celcius-link" href="#"> C</a> /
+                        <a id="farenheit-link" href="#"> F</a>
+                     
+                    </div>
+                  </div>
+                  <h2 id="date">tue 12.35</h2>
+                </div>
+                <div class="g-col-4">
+                  <div
+                    class="
+                      input-group
+                      bg-dark
+                      text-white
+                      shadow-sm
+                      p-1
+                      mb-1
+                      bg-body
+                      rounded
+                    "
+                  >
+                    <button
+                      class="btn btn-outline-secondary"
+                      type="button"
+                      id="form"
+                    >     
+                      Submit
+                    </button>
+                    <input
+              id=  "form-city"
+                      type="text"
+                      class="form-control"
+                      placeholder="Location"
+                      aria-label="Example text with button addon"
+                      aria-describedby="button-addon1"
+                    />
+                  </div>
+                  <div
+                    class="
+                      card-header
+                      p-3
+                      mb-1
+                      bg-dark
+                      text-white
+                      shadow-sm
+                      p-1
+                      mb-1
+                      bg-body
+                      rounded
+                    "
+                  >
+                    <div class="row">
+                      <div class="col-5">Today</div>
+                      <div class="col-3">🌞 17</div>
+                      <div class="col-3">☂️ 0%</div>
+                    </div>
+                  </div>
+                  <div
+                    class="
+                      card-header
+                      p-3
+                      mb-1
+                      bg-dark
+                      text-white
+                      shadow-sm
+                      p-1
+                      mb-1
+                      bg-body
+                      rounded
+                    "
+                  >
+                    <div class="row">
+                      <div class="col-5">Tomorrow</div>
+                      <div class="col-3">🌞 17</div>
+                      <div class="col-3">☂️ 0%</div>
+                    </div>
+                  </div>
+                  <div
+                    class="
+                      card-header
+                      p-3
+                      mb-1
+                      bg-dark
+                      text-white
+                      shadow-sm
+                      p-1
+                      mb-1
+                      bg-body
+                      rounded
+                    "
+                  >
+                    <div class="row">
+                      <div class="col-5">Monday</div>
+                      <div class="col-3">🌞 17</div>
+                      <div class="col-3">☂️ 0%</div>
+                    </div>
+                  </div>
+                  <div
+                    class="
+                      card-header
+                      p-3
+                      mb-1
+                      bg-dark
+                      text-white
+                      shadow-sm
+                      p-1
+                      mb-1
+                      bg-body
+                      rounded
+                    "
+                  >
+                    <div class="row">
+                      <div class="col-5">Tuesday</div>
+                      <div class="col-3">🌞 17</div>
+                      <div class="col-3">☂️ 0%</div>
+                    </div>
+                  </div>
+                  <div
+                    class="
+                      card-header
+                      p-3
+                      mb-1
+                      bg-dark
+                      text-white
+                      shadow-sm
+                      p-1
+                      mb-1
+                      bg-body
+                      rounded
+                    "
+                  >
+                    <div class="row">
+                      <div class="col-5">Wednesday</div>
+                      <div class="col-3">🌞 17</div>
+                      <div class="col-3">☂️ 0%</div>
+                    </div>
+                  </div>
+                  <div
+                    class="
+                      card-header
+                      p-3
+                      mb-1
+                      bg-dark
+                      text-white
+                      shadow-sm
+                      p-1
+                      mb-1
+                      bg-body
+                      rounded
+                    "
+                  >
+                    <a href="">More information</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
